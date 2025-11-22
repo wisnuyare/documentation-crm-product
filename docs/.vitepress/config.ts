@@ -4,6 +4,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 export default withMermaid(defineConfig({
   title: 'CRM Product',
   description: 'Next-Gen WhatsApp CRM with Multi-Agent Orchestration',
+  base: '/documentation-crm-product/',
   themeConfig: {
     logo: '/logo.png',
     nav: [
@@ -53,7 +54,7 @@ export default withMermaid(defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourusername/crm-product' }
+      { icon: 'github', link: 'https://github.com/wisnuyare/documentation-crm-product' }
     ],
     footer: {
       message: 'Released under the MIT License.',
